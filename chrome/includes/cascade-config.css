@@ -7,7 +7,7 @@
 
   /*  Global Border Radius
    *  applied to ALL UI elements
-   */ --uc-border-radius: 0px;
+   */ --uc-border-radius: 8px;
 
 
   /*  The distance the Statuspanel floats
@@ -22,11 +22,11 @@
 .titlebar-buttonbox-container { display: none !important; }
 
 
-#pageActionButton { display: none !important; }
-
-#PanelUI-menu-button { padding: 0px !important; }
-#PanelUI-menu-button .toolbarbutton-icon { width: 1px !important; }
-#PanelUI-menu-button .toolbarbutton-badge-stack { padding: 0px !important; }
+/* #pageActionButton { display: none !important; } */
+/**/
+/* #PanelUI-menu-button { padding: 0px !important; } */
+/* #PanelUI-menu-button .toolbarbutton-icon { width: 1px !important; } */
+/* #PanelUI-menu-button .toolbarbutton-badge-stack { padding: 0px !important; } */
 
 
 
@@ -69,7 +69,7 @@
   /*  Width of the URL Bar for the Oneline layout
    *  If enabled the max-width is applied on focus
    *  otherwise the URL Bar will always be it's min-width
-   */ --uc-urlbar-min-width: 35vw;
+   */ --uc-urlbar-min-width: 20vw;
       --uc-urlbar-max-width: 35vw;
 
   /*  Position of the URL Bar
